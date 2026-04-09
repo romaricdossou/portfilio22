@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Me contacter - Portfolio de Komlan Romaric Dossou">
+  <title>Contact | Portfolio Komlan Romaric Dossou</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <div class="header-container">
+      <div class="logo">K.R.D</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../index.html#about">À Propos</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" style="min-height: 40vh;">
+    <div class="hero-content">
+      <h1>Entrerons en Contact</h1>
+      <p class="subtitle">Vous avez une question ou un projet ?</p>
+      <p>N'hésitez pas à me contacter. Je répondrai dans les plus brefs délais.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT INFO CARDS -->
+  <section>
+    <div class="section-title">
+      <h2>Mes Coordonnées</h2>
+    </div>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h4>📧 Email</h4>
+        <p><a href="mailto:romaricdossou18@gmail.com">romaricdossou18@gmail.com</a></p>
+        <p style="font-size: 0.9rem; color: var(--gray);">Réponse en moins de 24h</p>
+      </div>
+      
+      <div class="skill-card">
+        <h4>📱 Téléphone</h4>
+        <p><a href="tel:+22699999999">+221 778382833</a></p>
+        <p style="font-size: 0.9rem; color: var(--gray);">WhatsApp disponible</p>
+      </div>
+      
+      <div class="skill-card">
+        <h4>📍 Localisation</h4>
+        <p>Dakar, Sénégal</p>
+        <p style="font-size: 0.9rem; color: var(--gray);">Disponible pour meetings en ligne</p>
+      </div>
+
+      <div class="skill-card">
+        <h4>🕐 Heures de Disponibilité</h4>
+        <p>Lundi-Vendredi: 08h00-18h00</p>
+        <p style="font-size: 0.9rem; color: var(--gray);">GMT+0 (Heure Afrique Ouest)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section style="background-color: var(--light);">
+    <div class="section-title">
+      <h2>Formulaire de Contact</h2>
+    </div>
+    <p style="text-align: center; margin-bottom: var(--spacing-xl); color: var(--gray);">
+      Remplissez ce formulaire et je vous recontacterai rapidement.
+    </p>
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="firstName">Prénom *</label>
+          <input type="text" id="firstName" name="firstName" required placeholder="Votre prénom">
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Nom de Famille *</label>
+          <input type="text" id="lastName" name="lastName" required placeholder="Votre nom">
+        </div>
+
+        <div class="form-group">
+          <label for="contactEmail">Email *</label>
+          <input type="email" id="contactEmail" name="contactEmail" required placeholder="votre@email.com">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" placeholder="+226 XXXXXXXX">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Sujet *</label>
+          <input type="text" id="subject" name="subject" required placeholder="Ex: Demande de collaboration...">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required 
+                    placeholder="Écrivez votre message en détail..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="category">Catégorie *</label>
+          <select id="category" name="category" required>
+            <option value="">-- Choisir une catégorie --</option>
+            <option value="collaboration">Collaboration Professionnelle</option>
+            <option value="employment">Offre d'Emploi</option>
+            <option value="project">Nouveau Projet</option>
+            <option value="question">Question Technique</option>
+            <option value="feedback">Retour / Avis</option>
+            <option value="other">Autre</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>
+            <input type="checkbox" name="terms" required> 
+            J'accepte les conditions d'utilisation *
+          </label>
+        </div>
+
+        <button type="submit" class="cta-button" style="width: 100%; margin-top: var(--spacing-lg);">
+          Envoyer le Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- SOCIAL MEDIA SECTION -->
+  <section>
+    <div class="section-title">
+      <h2>Réseaux Sociaux</h2>
+    </div>
+    <p style="text-align: center; margin-bottom: var(--spacing-xl); color: var(--gray);">
+      Suivez-moi sur les réseaux sociaux pour mes actualités et publications.
+    </p>
+    <div style="text-align: center;">
+      <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://github.com" target="_blank" style="font-size: 2rem; text-decoration: none;">
+          <div style="background-color: var(--light); padding: 2rem; border-radius: 10px; width: 150px; text-align: center; transition: var(--transition);">
+            🔗 GitHub
+          </div>
+        </a>
+        <a href="https://linkedin.com" target="_blank" style="font-size: 2rem; text-decoration: none;">
+          <div style="background-color: var(--light); padding: 2rem; border-radius: 10px; width: 150px; text-align: center; transition: var(--transition);">
+            💼 LinkedIn
+          </div>
+        </a>
+        <a href="https://twitter.com" target="_blank" style="font-size: 2rem; text-decoration: none;">
+          <div style="background-color: var(--light); padding: 2rem; border-radius: 10px; width: 150px; text-align: center; transition: var(--transition);">
+            🐦 Twitter
+          </div>
+        </a>
+        <a href="https://instagram.com" target="_blank" style="font-size: 2rem; text-decoration: none;">
+          <div style="background-color: var(--light); padding: 2rem; border-radius: 10px; width: 150px; text-align: center; transition: var(--transition);">
+            📷 Instagram
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section style="background-color: var(--light);">
+    <div class="section-title">
+      <h2>Questions Fréquentes</h2>
+    </div>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h4>Quel est votre délai de réponse ?</h4>
+        <p>Je réponds généralement dans les 24 heures. Pour les urgences, contactez-moi directement par téléphone.</p>
+      </div>
+      
+      <div class="skill-card">
+        <h4>Acceptez-vous les projets à distance ?</h4>
+        <p>Oui ! Je travaille confortablement en remote. Meetings en ligne et communication régulière sont prioritaires.</p>
+      </div>
+      
+      <div class="skill-card">
+        <h4>Quel est votre tarif ?</h4>
+        <p>Les tarifs varient selon le projet, sa complexité et sa durée. Nous pouvons discuter d'une offre personnalisée.</p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Pouvez-vous faire un audit de sécurité ?</h4>
+        <p>Oui, c'est l'une de mes spécialités. Je propose des audits complets et des recommandations d'amélioration.</p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Donnez-vous des formations ?</h4>
+        <p>Oui, je propose des formations personnalisées en génie logiciel, administration réseau et développement web.</p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Avez-vous des références ?</h4>
+        <p>Oui, je serai heureux de vous mettre en contact avec d'anciens clients. Contactez-moi pour plus de détails.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>À Propos</h4>
+        <p>Komlan Romaric Dossou, développeur passionné par le génie logiciel et l'administration réseau.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Liens Rapides</h4>
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../index.html#about">À Propos</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Me Contacter</h4>
+        <ul>
+          <li>📧 Email: <a href="mailto:romaricdossou18@gmail.com">romaricdossou18@gmail.com</a></li>
+          <li>📱 Téléphone: <a href="tel:+221778382833">+221 77 838 28 33</a></li>
+          <li>📍 Localisation: Dakar, Sénégal</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-bottom: var(--spacing-lg);">
+      <h4 style="margin-bottom: var(--spacing-md);">Réseaux Sociaux</h4>
+      <div class="social-links">
+        <a href="https://github.com/" title="GitHub">🔗</a>
+        <a href="https://www.linkedin.com/mynetwork/grow/" title="LinkedIn">💼</a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Komlan Romaric Dossou. Tous droits réservés.</p>
+      <p style="font-size: 0.9rem; opacity: 0.8;">Portfolio réalisé avec HTML et CSS</p>
+    </div>
+  </footer>
+</body>
+</html>

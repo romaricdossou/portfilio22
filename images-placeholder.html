@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Placeholder - Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .image-item { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .image-preview { max-width: 200px; height: auto; border: 1px solid #ccc; }
+        .download-btn { background: #DC143C; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px 0; }
+        .copy-url { background: #666; color: white; padding: 5px 10px; border: none; border-radius: 3px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🖼️ Images Placeholder pour votre Portfolio</h1>
+
+    <p><strong>Cliquez sur "Télécharger" pour chaque image, puis renommez-les selon les noms ci-dessous :</strong></p>
+
+    <div class="image-item">
+        <h3>1. profile.jpg - Photo de profil (300x300)</h3>
+        <img src="https://picsum.photos/300/300?random=1" alt="Profile placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/300/300?random=1" download="profile.jpg" class="download-btn">📥 Télécharger profile.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/300/300?random=1')">📋 Copier URL</button>
+    </div>
+
+    <div class="image-item">
+        <h3>2. project1.jpg - ESPACE-VOYAGE (400x250)</h3>
+        <img src="https://picsum.photos/400/250?random=2" alt="Travel placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/400/250?random=2" download="project1.jpg" class="download-btn">📥 Télécharger project1.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/400/250?random=2')">📋 Copier URL</button>
+    </div>
+
+    <div class="image-item">
+        <h3>3. project2.jpg - CARD (400x250)</h3>
+        <img src="https://picsum.photos/400/250?random=3" alt="Form placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/400/250?random=3" download="project2.jpg" class="download-btn">📥 Télécharger project2.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/400/250?random=3')">📋 Copier URL</button>
+    </div>
+
+    <div class="image-item">
+        <h3>4. project3.jpg - CAT (400x250)</h3>
+        <img src="https://picsum.photos/400/250?random=4" alt="Cat placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/400/250?random=4" download="project3.jpg" class="download-btn">📥 Télécharger project3.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/400/250?random=4')">📋 Copier URL</button>
+    </div>
+
+    <div class="image-item">
+        <h3>5. project4.jpg - Portfolio (400x250)</h3>
+        <img src="https://picsum.photos/400/250?random=5" alt="Portfolio placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/400/250?random=5" download="project4.jpg" class="download-btn">📥 Télécharger project4.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/400/250?random=5')">📋 Copier URL</button>
+    </div>
+
+    <div class="image-item">
+        <h3>6. hobby.jpg - Loisirs (400x250 - Optionnel)</h3>
+        <img src="https://picsum.photos/400/250?random=6" alt="Hobby placeholder" class="image-preview">
+        <br>
+        <a href="https://picsum.photos/400/250?random=6" download="hobby.jpg" class="download-btn">📥 Télécharger hobby.jpg</a>
+        <button class="copy-url" onclick="navigator.clipboard.writeText('https://picsum.photos/400/250?random=6')">📋 Copier URL</button>
+    </div>
+
+    <hr>
+    <h2>🎯 Instructions</h2>
+    <ol>
+        <li>Cliquez sur "📥 Télécharger" pour chaque image</li>
+        <li>Placez les fichiers dans le dossier <code>images/</code> de votre portfolio</li>
+        <li>Actualisez votre portfolio dans le navigateur (Ctrl+F5)</li>
+        <li>Remplacez ces placeholders par vos vraies images plus tard</li>
+    </ol>
+
+    <p><strong>💡 Conseil :</strong> Pour des images plus pertinentes, utilisez des sites comme Unsplash ou Pixabay pour trouver des images gratuites de meilleure qualité.</p>
+
+    <p><a href="../index.html" style="background: #DC143C; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">🏠 Retour au Portfolio</a></p>
+</body>
+</html>
